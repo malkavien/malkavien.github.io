@@ -257,7 +257,7 @@ const contactInfo = {
   title: emoji("Entre em contato ☎️"),
   subtitle: "Quer conversar ou tirar dúvidas? Estou disponível.",
   number: "(84) 9 9915 9061",
-  email_address: "rafael.meu@gmail.com"
+  email_address: "rafael.pomeu@gmail.com"
 };
 
 // Twitter Section
