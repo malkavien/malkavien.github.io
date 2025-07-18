@@ -51,7 +51,8 @@ const skillsSection = {
     emoji("⚡ Desenvolvimento de APIs RESTful com Node.js + Express + TypeScript"),
     emoji("⚡ Integrações com APIs de pagamento (PIX, boletos) e fiscais (NF-e)"),
     emoji("⚡ Automatizações com Webhooks"),
-    emoji("⚡ Criação de front-ends com React e integração com backend")
+    emoji("⚡ Criação de front-ends com React e integração com backend"),
+    emoji("⚡ Criação de app com geolocalização para controle de ponto em estágios médicos")
   ],
   softwareSkills: [
     { skillName: "html-5", fontAwesomeClassname: "fab fa-html5" },
@@ -60,6 +61,7 @@ const skillsSection = {
     { skillName: "TypeScript", fontAwesomeClassname: "fas fa-code" },
     { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
     { skillName: "React", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "React Native", fontAwesomeClassname: "fab fa-react" },
     { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
     { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
     { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
