@@ -111,7 +111,15 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
+      Stack: "DevOps",
+      progressPercentage: "80%"
+    },
+    {
       Stack: "Frontend/Design",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Mobile",
       progressPercentage: "60%"
     }
   ],
