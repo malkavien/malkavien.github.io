@@ -48,12 +48,13 @@ const skillsSection = {
   title: "O que eu faço",
   subTitle: "DESENVOLVEDOR FULL STACK APAIXONADO POR BACK-END E AUTOMAÇÕES",
   skills: [
-    emoji("⚡ Desenvolvimento de APIs RESTful com Node.js + Express + TypeScript"),
-    emoji("⚡ Integrações com APIs de pagamento (PIX, boletos) e fiscais (NF-e)"),
-    emoji("⚡ Automatizações com Webhooks"),
-    emoji("⚡ Criação de front-ends com React e integração com backend"),
-    emoji("⚡ Criação de app com geolocalização para controle de ponto em estágios médicos")
-  ],
+  emoji("⚡ Desenvolvimento de APIs RESTful com Node.js + Express + TypeScript"),
+  emoji("⚡ Integrações com APIs de pagamento (PIX, boletos) e fiscais (NF-e)"),
+  emoji("⚡ Automatizações com Webhooks"),
+  emoji("⚡ Criação de front-ends com React e integração com backend"),
+  emoji("⚡ Criação de app em React Native com geolocalização para controle de ponto em estágios médicos"),
+  emoji("⚡ Desenvolvimento de BI financeiro e de faturamento com a stack ELK (Elasticsearch, Logstash, Kibana)")
+],
   softwareSkills: [
     { skillName: "html-5", fontAwesomeClassname: "fab fa-html5" },
     { skillName: "css3", fontAwesomeClassname: "fab fa-css3-alt" },
