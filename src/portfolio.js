@@ -134,10 +134,17 @@ const workExperiences = {
   display: true,
   experience: [
     {
+      role: "Desenvolvedor Fullstack Pleno",
+      company: "Linkdesign",
+      companylogo: require("./assets/images/ld.png"),
+      date: "2021 – Atualmente",
+      desc: "Desenvolvimento de sistema escolar."
+    },
+    {
       role: "Desenvolvedor Backend Pleno",
       company: "Novacode",
       companylogo: require("./assets/images/nc.png"),
-      date: "2021 – Atualmente",
+      date: "2021 – 2025",
       desc: "Desenvolvimento de SaaS com foco em automações financeiras, emissão de NF-e, integração PIX e consumo de APIs externas."
     },
     {
@@ -165,6 +172,12 @@ const bigProjects = {
   title: "Projetos de Destaque",
   subtitle: "Alguns sistemas e soluções onde atuei",
   projects: [
+    {
+      image: require("./assets/images/ld.png"),
+      projectName: "Linkdesign",
+      projectDesc: "Sistema de gestão escolar, integração com APIs bancárias e controle de acesso.",
+      footerLink: [{ name: "GitHub", url: "https://github.com/malkavien" }]
+    },
     {
       image: require("./assets/images/nc.png"),
       projectName: "NovaCode",
