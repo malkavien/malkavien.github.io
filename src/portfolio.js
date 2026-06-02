@@ -46,30 +46,47 @@ const socialMediaLinks = {
 // Skills
 const skillsSection = {
   title: "O que eu faço",
-  subTitle: "DESENVOLVEDOR BACKEND / FULL STACK ESPECIALIZADO EM INTEGRAÇÕES E SISTEMAS ESCALÁVEIS",
+  subTitle:
+    "DESENVOLVEDOR BACKEND / FULL STACK ESPECIALIZADO EM INTEGRAÇÕES E SISTEMAS ESCALÁVEIS",
   skills: [
-    emoji("⚡ Desenvolvimento de APIs RESTful escaláveis utilizando Node.js, TypeScript e PHP"),
-    emoji("⚡ Integrações complexas com APIs de terceiros, Webhooks e sistemas corporativos"),
-    emoji("⚡ Arquitetura, manutenção e evolução de sistemas web orientados ao negócio"),
-    emoji("⚡ Modelagem e otimização de bancos de dados relacionais (PostgreSQL e MySQL)"),
-    emoji("⚡ Desenvolvimento frontend com React e integração completa com backend"),
-    emoji("⚡ Testes automatizados (unitários e integração) para garantir qualidade e confiabilidade"),
-    emoji("⚡ Dashboards e indicadores financeiros utilizando Elasticsearch, Kibana e Stack ELK"),
-    emoji("⚡ Liderança técnica, mentoria de desenvolvedores e apoio em decisões de arquitetura")
+    emoji(
+      "⚡ Desenvolvimento de APIs RESTful escaláveis utilizando Node.js, TypeScript e PHP"
+    ),
+    emoji(
+      "⚡ Integrações complexas com APIs de terceiros, Webhooks e sistemas corporativos"
+    ),
+    emoji(
+      "⚡ Arquitetura, manutenção e evolução de sistemas web orientados ao negócio"
+    ),
+    emoji(
+      "⚡ Modelagem e otimização de bancos de dados relacionais (PostgreSQL e MySQL)"
+    ),
+    emoji(
+      "⚡ Desenvolvimento frontend com React e integração completa com backend"
+    ),
+    emoji(
+      "⚡ Testes automatizados (unitários e integração) para garantir qualidade e confiabilidade"
+    ),
+    emoji(
+      "⚡ Dashboards e indicadores financeiros utilizando Elasticsearch, Kibana e Stack ELK"
+    ),
+    emoji(
+      "⚡ Liderança técnica, mentoria de desenvolvedores e apoio em decisões de arquitetura"
+    )
   ],
   softwareSkills: [
-    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-    { skillName: "TypeScript", fontAwesomeClassname: "fas fa-code" },
-    { skillName: "PHP", fontAwesomeClassname: "fab fa-php" },
-    { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
-    { skillName: "Laravel", fontAwesomeClassname: "fab fa-laravel" },
-    { skillName: "React", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "Elasticsearch", fontAwesomeClassname: "fas fa-search" },
-    { skillName: "Kibana", fontAwesomeClassname: "fas fa-chart-line" }
+    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
+    {skillName: "TypeScript", fontAwesomeClassname: "fas fa-code"},
+    {skillName: "PHP", fontAwesomeClassname: "fab fa-php"},
+    {skillName: "Node.js", fontAwesomeClassname: "fab fa-node"},
+    {skillName: "Laravel", fontAwesomeClassname: "fab fa-laravel"},
+    {skillName: "React", fontAwesomeClassname: "fab fa-react"},
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"},
+    {skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "MySQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "Elasticsearch", fontAwesomeClassname: "fas fa-search"},
+    {skillName: "Kibana", fontAwesomeClassname: "fas fa-chart-line"}
   ],
   display: true
 };
@@ -96,7 +113,9 @@ const educationInfo = {
       subHeader: "Bacharelado em Ciência da Computação",
       duration: "Agosto 2008 - Março 2016",
       desc: "Desde 2012 é integrante do Núcleo Tecnológico de Engenharia de Software - NTES. Também, desde 2013 é integrante do Programa de Extensão Rede de Oficinandos na Educação e na Saúde.",
-      descBullets: ["Tem experiência nos seguintes temas: tecnologias, adaptação dinâmica em jogos digitais e saúde mental."]
+      descBullets: [
+        "Tem experiência nos seguintes temas: tecnologias, adaptação dinâmica em jogos digitais e saúde mental."
+      ]
     }
   ]
 };
@@ -182,26 +201,34 @@ const bigProjects = {
     {
       image: require("./assets/images/ld.png"),
       projectName: "Linkdesign",
-      projectDesc: "Sistema de gestão escolar, integração com APIs bancárias e controle de acesso.",
-      footerLink: [{ name: "GitHub", url: "https://github.com/malkavien" }]
+      projectDesc:
+        "Sistema de gestão escolar, integração com APIs bancárias e controle de acesso.",
+      footerLink: [{name: "GitHub", url: "https://github.com/malkavien"}]
     },
     {
       image: require("./assets/images/ld.png"),
       projectName: "Linkdesign",
-      projectDesc: "Sistema de gestão escolar, integração com APIs bancárias e controle de acesso.",
-      footerLink: [{ name: "GitHub", url: "https://github.com/malkavien" }]
+      projectDesc:
+        "Sistema de gestão escolar, integração com APIs bancárias e controle de acesso.",
+      footerLink: [{name: "GitHub", url: "https://github.com/malkavien"}]
     },
     {
       image: require("./assets/images/nc.png"),
       projectName: "NovaCode",
-      projectDesc: "Solução SaaS com emissão de notas, integração com APIs bancárias e controle de acesso.",
-      footerLink: [{ name: "GitHub", url: "https://github.com/malkavien" }]
+      projectDesc:
+        "Solução SaaS com emissão de notas, integração com APIs bancárias e controle de acesso.",
+      footerLink: [{name: "GitHub", url: "https://github.com/malkavien"}]
     },
     {
       image: require("./assets/images/rcosta_logo.png"),
       projectName: "RCosta",
       projectDesc: "Dashboard com alertas financeiros utilizando a Stack ELK",
-      footerLink: [{ name: "LinkedIn", url: "https://www.linkedin.com/in/rafael-rodrigues-04184757/" }]
+      footerLink: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/rafael-rodrigues-04184757/"
+        }
+      ]
     }
   ],
   display: true
@@ -212,7 +239,8 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Destaques Profissionais 🚀"),
-  subtitle: "Principais conquistas e diferenciais da minha trajetória profissional.",
+  subtitle:
+    "Principais conquistas e diferenciais da minha trajetória profissional.",
   achievementsCards: [
     {
       title: "5+ Anos Desenvolvendo Sistemas Escaláveis",
