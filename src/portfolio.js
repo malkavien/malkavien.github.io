@@ -206,13 +206,6 @@ const bigProjects = {
       footerLink: [{name: "GitHub", url: "https://github.com/malkavien"}]
     },
     {
-      image: require("./assets/images/ld.png"),
-      projectName: "Linkdesign",
-      projectDesc:
-        "Sistema de gestão escolar, integração com APIs bancárias e controle de acesso.",
-      footerLink: [{name: "GitHub", url: "https://github.com/malkavien"}]
-    },
-    {
       image: require("./assets/images/nc.png"),
       projectName: "NovaCode",
       projectDesc:
