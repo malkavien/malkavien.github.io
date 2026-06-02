@@ -23,7 +23,7 @@ const greeting = {
   username: "Rafael de Almeida Rodrigues",
   title: "Olá, sou Rafael",
   subTitle: emoji(
-    "Desenvolvedor Full Stack focado em back-end, com paixão por automações, integrações financeiras (PIX, NF-e, boletos) e soluções robustas com Node.js, TypeScript e ferramentas modernas de desenvolvimento. 🚀"
+    "Desenvolvedor Full Stack focado em back-end, com paixão por automações, integrações financeiras (PIX, NF-e, boletos) e soluções robustas com Node.js, TypeScript, PHP e ferramentas modernas de desenvolvimento. 🚀"
   ),
   resumeLink:
     "https://github.com/malkavien/curriculo/blob/main/Curriculo%20Rafael%20Rodrigues.pdf", // Set to empty to hide the button
@@ -46,27 +46,30 @@ const socialMediaLinks = {
 // Skills
 const skillsSection = {
   title: "O que eu faço",
-  subTitle: "DESENVOLVEDOR FULL STACK APAIXONADO POR BACK-END E AUTOMAÇÕES",
+  subTitle: "DESENVOLVEDOR BACKEND / FULL STACK ESPECIALIZADO EM INTEGRAÇÕES E SISTEMAS ESCALÁVEIS",
   skills: [
-  emoji("⚡ Desenvolvimento de APIs RESTful com Node.js + Express + TypeScript"),
-  emoji("⚡ Integrações com APIs de pagamento (PIX, boletos) e fiscais (NF-e)"),
-  emoji("⚡ Automatizações com Webhooks"),
-  emoji("⚡ Criação de front-ends com React e integração com backend"),
-  emoji("⚡ Criação de app em React Native com geolocalização para controle de ponto em estágios médicos"),
-  emoji("⚡ Desenvolvimento de BI financeiro e de faturamento com a stack ELK (Elasticsearch, Logstash, Kibana)")
-],
+    emoji("⚡ Desenvolvimento de APIs RESTful escaláveis utilizando Node.js, TypeScript e PHP"),
+    emoji("⚡ Integrações complexas com APIs de terceiros, Webhooks e sistemas corporativos"),
+    emoji("⚡ Arquitetura, manutenção e evolução de sistemas web orientados ao negócio"),
+    emoji("⚡ Modelagem e otimização de bancos de dados relacionais (PostgreSQL e MySQL)"),
+    emoji("⚡ Desenvolvimento frontend com React e integração completa com backend"),
+    emoji("⚡ Testes automatizados (unitários e integração) para garantir qualidade e confiabilidade"),
+    emoji("⚡ Dashboards e indicadores financeiros utilizando Elasticsearch, Kibana e Stack ELK"),
+    emoji("⚡ Liderança técnica, mentoria de desenvolvedores e apoio em decisões de arquitetura")
+  ],
   softwareSkills: [
-    { skillName: "html-5", fontAwesomeClassname: "fab fa-html5" },
-    { skillName: "css3", fontAwesomeClassname: "fab fa-css3-alt" },
     { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
     { skillName: "TypeScript", fontAwesomeClassname: "fas fa-code" },
+    { skillName: "PHP", fontAwesomeClassname: "fab fa-php" },
     { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
+    { skillName: "Laravel", fontAwesomeClassname: "fab fa-laravel" },
     { skillName: "React", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "React Native", fontAwesomeClassname: "fab fa-react" },
     { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
     { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
     { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf" }
+    { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Elasticsearch", fontAwesomeClassname: "fas fa-search" },
+    { skillName: "Kibana", fontAwesomeClassname: "fas fa-chart-line" }
   ],
   display: true
 };
@@ -101,14 +104,18 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Backend", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Backend",
+      progressPercentage: "95%"
     },
     {
-      Stack: "Programação",
+      Stack: "APIs e Integrações",
+      progressPercentage: "95%"
+    },
+    {
+      Stack: "Banco de Dados",
       progressPercentage: "90%"
     },
     {
@@ -116,15 +123,15 @@ const techStack = {
       progressPercentage: "80%"
     },
     {
-      Stack: "Frontend/Design",
-      progressPercentage: "60%"
+      Stack: "Frontend",
+      progressPercentage: "70%"
     },
     {
-      Stack: "Mobile",
-      progressPercentage: "60%"
+      Stack: "BI & Observabilidade",
+      progressPercentage: "85%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
@@ -134,18 +141,25 @@ const workExperiences = {
   display: true,
   experience: [
     {
+      role: "Desenvolvedor Full Stack / Analista de Sistemas",
+      company: "Linkdesign",
+      companylogo: require("./assets/images/ld.png"),
+      date: "2025 – Atualmente",
+      desc: "Manutenção e evolução de sistemas corporativos, desenvolvimento de integrações, novas funcionalidades backend/frontend, otimização de consultas SQL e suporte em ambientes de produção."
+    },
+    {
       role: "Desenvolvedor Backend Pleno",
-      company: "Novacode",
+      company: "NovaCode",
       companylogo: require("./assets/images/nc.png"),
-      date: "2021 – Atualmente",
-      desc: "Desenvolvimento de SaaS com foco em automações financeiras, emissão de NF-e, integração PIX e consumo de APIs externas."
+      date: "2021 – 2025",
+      desc: "Liderança técnica em migrações de sistemas legados, desenvolvimento de APIs RESTful escaláveis, integrações com Webhooks e APIs externas, testes automatizados, mentoria de desenvolvedores e apoio em decisões arquiteturais."
     },
     {
       role: "Analista de Dados",
       company: "RCosta",
       companylogo: require("./assets/images/rcosta_logo.png"),
       date: "2019 – 2021",
-      desc: "Análise de dados e criação de dashboards (Kibana) para decisão estratégica de Postos de gasolina"
+      desc: "Criação de dashboards estratégicos no Kibana, modelagem e consultas Elasticsearch, BI financeiro e indicadores de faturamento utilizando Stack ELK."
     }
   ]
 };
@@ -191,15 +205,48 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Certificações 🏆"),
-  subtitle: "Cursos e certificados relevantes para minha carreira.",
+  title: emoji("Destaques Profissionais 🚀"),
+  subtitle: "Principais conquistas e diferenciais da minha trajetória profissional.",
   achievementsCards: [
     {
-      title: "Node.js: API REST com Express",
-      subtitle: "Curso completo sobre criação de APIs com autenticação JWT e padrões de arquitetura REST.",
-      image: require("./assets/images/alura.png"),
-      imageAlt: "Node.js Logo",
-      footerLink: [{ name: "Certificado", url: "https://cursos.alura.com.br" }]
+      title: "5+ Anos Desenvolvendo Sistemas Escaláveis",
+      subtitle:
+        "Experiência em Node.js, TypeScript e PHP criando APIs REST, integrações complexas e soluções orientadas ao negócio.",
+      image: require("./assets/images/nc.png"),
+      imageAlt: "Backend Development",
+      footerLink: []
+    },
+    {
+      title: "Liderança Técnica e Mentoria",
+      subtitle:
+        "Atuação em migração de sistemas legados, definição de arquitetura, revisão de código e acompanhamento de desenvolvedores.",
+      image: require("./assets/images/leadership.png"),
+      imageAlt: "Tech Leadership",
+      footerLink: []
+    },
+    {
+      title: "Mestre em Ciência da Computação",
+      subtitle:
+        "Pesquisa em tecnologias para saúde, desenvolvimento de jogos educacionais e liderança de projetos acadêmicos multidisciplinares.",
+      image: require("./assets/images/ppgcc.png"),
+      imageAlt: "Master Degree",
+      footerLink: []
+    },
+    {
+      title: "Especialista em Integrações",
+      subtitle:
+        "Experiência com APIs RESTful, Webhooks, sistemas financeiros, automações e integrações entre plataformas corporativas.",
+      image: require("./assets/images/api.png"),
+      imageAlt: "API Integration",
+      footerLink: []
+    },
+    {
+      title: "BI e Observabilidade",
+      subtitle:
+        "Criação de dashboards financeiros e operacionais utilizando Elasticsearch, Kibana e Stack ELK para tomada de decisão estratégica.",
+      image: require("./assets/images/rcosta_logo.png"),
+      imageAlt: "Business Intelligence",
+      footerLink: []
     }
   ],
   display: true
